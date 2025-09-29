@@ -6,26 +6,31 @@ root: intro
 parts:
   - caption: Fundamentals
     chapters:
-    - file: fundamentals/git-github
-    - file: fundamentals/conventional-commits
-    - file: fundamentals/test-debug
-    - file: fundamentals/share-deploy
-    - file: fundamentals/computing-development-environments/index
-      sections:
-        - file: fundamentals/computing-development-environments/conda-mamba
-        - file: fundamentals/computing-development-environments/docker
-        - file: fundamentals/computing-development-environments/pixi
-        - file: fundamentals/computing-development-environments/notebooks-interactive-environments
+      - file: fundamentals/git-github
+      - file: fundamentals/conventional-commits
+      - file: fundamentals/test-debug
+      - file: fundamentals/share-deploy
+      - file: fundamentals/computing-development-environments/index
+        sections:
+          - file: fundamentals/computing-development-environments/conda-mamba
+          - file: fundamentals/computing-development-environments/docker
+          - file: fundamentals/computing-development-environments/pixi
+          - file: fundamentals/computing-development-environments/notebooks-interactive-environments
+      - file: fundamentals/AI-for-Software-Engineering/index
+        sections:
+          - file: fundamentals/AI-for-Software-Engineering/github-copilot
+          - file: fundamentals/AI-for-Software-Engineering/working-with-chatgpt
+          - file: fundamentals/AI-for-Software-Engineering/local-llms
   - caption: Advanced Fundamentals
     chapters:
-    - file: advanced/profiling
-    - file: advanced/deployment-strategies-tools/index
-      sections:
-        - file: advanced/deployment-strategies-tools/cloud-infrastructure-and-services
-        - file: advanced/deployment-strategies-tools/kubernetes
-        - file: advanced/deployment-strategies-tools/docker-advanced
+      - file: advanced/profiling
+      - file: advanced/deployment-strategies-tools/index
+        sections:
+          - file: advanced/deployment-strategies-tools/cloud-infrastructure-and-services
+          - file: advanced/deployment-strategies-tools/kubernetes
+          - file: advanced/deployment-strategies-tools/docker-advanced
   - caption: App Development
     chapters:
-    - file: app-development/frontend/index
-      sections:
-        - file: app-development/frontend/flutter
+      - file: app-development/frontend/index
+        sections:
+          - file: app-development/frontend/flutter
